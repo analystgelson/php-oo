@@ -11,16 +11,10 @@
 require_once "Produto.php";
 require_once "Tenis.php";
 
-$tenis = new TenisAdidas();
-$tenis->getCor();
+$produto = new Produto();
+$produto->setNome("Tenis Exemplo")
+        ->setDescricao("Essa é descrição do produto")
+        ->setEstoque(10)
+        ->setValor(1000);
 
-$tenis2 = new SapaTenis();
-$tenis2->getCor();
-$tenis2->getTamanho();
-
-
-// if ( $tenis instanceof Tenis ) {
-//     echo "É um tipo de tênis";
-// } else {
-//     echo "Não é um tipo de tênis";
-// }
+$produto->getNome();
