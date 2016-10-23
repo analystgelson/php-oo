@@ -1,5 +1,9 @@
 <?php
 
+namespace GM\Conta;
+
+use GM\Conta\Util\ProcessoTrait;
+
 abstract class ContaAbstract
 {
 	use ProcessoTrait;

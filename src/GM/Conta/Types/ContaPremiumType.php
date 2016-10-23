@@ -1,6 +1,8 @@
 <?php
 
-require_once "ContaAbstract.php";
+namespace GM\Conta\Types;
+
+use GM\Conta\ContaAbstract;
 
 class ContaPremium extends ContaAbstract
 {

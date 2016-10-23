@@ -1,5 +1,7 @@
 <?php
 
+namespace GM\Conta\Util;
+
 trait ProcessoTrait
 {
 	public function iniciaProcesso()
