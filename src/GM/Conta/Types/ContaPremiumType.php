@@ -4,7 +4,7 @@ namespace GM\Conta\Types;
 
 use GM\Conta\ContaAbstract;
 
-class ContaPremium extends ContaAbstract
+class ContaPremiumType extends ContaAbstract
 {
 	
 	public function __construct()

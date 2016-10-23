@@ -5,7 +5,7 @@ namespace GM\Conta\Types;
 
 use GM\Conta\ContaAbstract;
 
-class Conta extends ContaAbstract
+class ContaType extends ContaAbstract
 {	
 
 	protected function calculoDeposito($valor)
